@@ -4,7 +4,7 @@ from django.views.generic.edit import CreateView
 from django.urls import reverse_lazy
 from .models import Booking
 from django.conf import settings
-import telegram
+from telegram import Bot
 from barber.settings import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 import logging
 import requests
