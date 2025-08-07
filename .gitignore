@@ -1,0 +1,33 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Django static files
+staticfiles/
+static/
+media/
+
+# Locale translation files
+locale/
+*.mo
+
+# VSCode settings (agar ishlatsang)
+.vscode/
+
+# Mac/Linux/Windows OS junk
+.DS_Store
+Thumbs.db
+
+# Node modules (agar ishlatsang)
+node_modules/
+
+# Vendor files
+vendor/
+
+# Database files (ixtiyoriy)
+*.sqlite3
