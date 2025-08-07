@@ -12,7 +12,7 @@ class Booking(models.Model):
     phone = models.CharField(
         max_length=12,
         verbose_name="Telefon raqami",
-        help_text="9 ta raqam (masalan, 995554477) yoki +998XX-XXX-XX-XX",
+        help_text="991234567",
         validators=[validate_phone_number]
     )
     booking_date = models.DateField(verbose_name="Bron sanasi")
